@@ -1,3 +1,4 @@
 name: flatmates
 markdown: redcarpet
 pygments: true
+baseurl: /petproject
