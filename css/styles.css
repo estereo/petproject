@@ -6,6 +6,8 @@ h1.title {font-size: 50px;}
 .site .navbar .nav > li > a > [class*="fui-calendar-solid"] {
 font-size: 14px;
 top: 0px;}
+.fund {text-align: center;}
+div.fund button#addMoney {margin-top:20px;}
 
 /* SIGN IN */
 .form-signin {
@@ -119,6 +121,28 @@ background-color: #fff; border: 1px solid #e7e7e7;
 .newEvent form input.btn {margin: 20px; clear: both; display: block;}
 .newEvent form label span {color: #1abc9c;}
 
+/* SHOPPING LISTS */
+
+.shoppingList .well {
+	margin-bottom: 10px; 
+	overflow: hidden; 
+} 
+.shoppingList h4 {
+	font-size: 17px;
+	margin-left: 0px;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 0;
+}
+.shoppingList .well h4 {float: left; line-height: 26px;}
+.shoppingList .well .options {float: right;}
+.shoppingList .well .options .btn-primary {
+background-color: #fff; border: 1px solid #e7e7e7;
+}
+.shoppingList .well .options .edit {color:#7D8891;}
+.shoppingList .well .options .remove {color:#e74c3c;}
+.shoppingList .well .options .add {color:#1abc9c;}
+/* END SHOPPING LISTS */
 
 
 .navbar-header .navbar-brand h1 {font-size: 24px; margin: 0;}
