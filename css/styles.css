@@ -76,16 +76,50 @@ top: 0px;}
     margin-top: 10px;
 	font-size: 15px;
 }
-
 /* END SIGN IN */
 
 /* NEWS FEED */
 .newsFeed h2 {font-size: 35px;}
 .newsFeed h3 {font-size: 22px; font-weight: normal;line-height: 29px; margin-bottom: 10px;}
 .newsFeed h4 {font-size: 17px; margin-left: 44px; font-weight: normal; margin-bottom:4px; margin-top:0;}
-.newsFeed p {font-size: 13px; margin-left: 44px; color: #909DA8;}
+.newsFeed p {font-size: 13px; margin-left: 44px; color: #7D8891;}
 .newsFeed .user img {border-radius: 15px; float: left; margin-right: 13px;}
-/* NEWS FEED */
+/* END NEWS FEED */
+/* EVENT */
+.eventData h2 {font-size: 35px;}
+.eventData h2 .edit {font-size: 17px;}
+.eventData h2 .edit:hover {text-decoration: underline;}
+.eventData h3 {font-size: 22px; font-weight: normal;line-height: 29px; margin: 10px 0;}
+.eventData h3 span {font-size: 18px; margin-left: 10px; font-weight: bold;}
+.eventData h4 {font-size: 17px; font-weight: normal; margin-bottom:4px; margin-top:0;}
+.eventData p {font-size: 16px; color: #7D8891;}
+.eventData .well {
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	background-color: #fff; 
+	border: none; 
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding-left: 0
+} 
+.eventData .well h4 {float: left; line-height: 26px;}
+.eventData .well .options {float: right;}
+.eventData .well .options .btn-primary {
+background-color: #fff; border: 1px solid #e7e7e7;
+}
+.eventData .well .options .edit {color:#7D8891;}
+.eventData .well .options .remove {color:#e74c3c;}
+.eventData .well .options .add {color:#1abc9c;}
+.eventData .panel-body {padding: 0 0 15px 0;}
+/* END EVENT */
+
+
+.newEvent form fieldset.left {float: left;}
+.newEvent form fieldset {overflow: hidden; margin-bottom: 25px;}
+.newEvent form input.btn {margin: 20px; clear: both; display: block;}
+.newEvent form label span {color: #1abc9c;}
+
+
 
 .navbar-header .navbar-brand h1 {font-size: 24px; margin: 0;}
 
