@@ -8,6 +8,7 @@ font-size: 14px;
 top: 0px;}
 .fund {text-align: center;}
 div.fund button#addMoney {margin-top:20px;}
+div.fund button#saveMoney {margin-top:20px;}
 
 /* SIGN IN */
 .form-signin {

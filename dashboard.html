@@ -32,7 +32,7 @@ title: Dashboard
 <div id="dashboard" class="container">
 	<ul class="newsFeed col-md-9">
 		<h2>News Feed</h2>
-		<li class="shoppingList user">
+		<li class="newEvent user">
 			<img src="{{ site.baseurl }}/images/user1.jpg" height="30" width="30">
 			<h3>Rossana created a new shopping list</h3>
 			<h4><a href="#" title="">Cleaning products</a></h4>
@@ -55,7 +55,7 @@ title: Dashboard
 			<h3>Gabriele bought 3 things of the shopping list <a href="#">Toilet</a></h3>
 			<p class="date">3 hours ago</p>
 		</li>
-		<li class="shoppingList user">
+		<li class="newEvent user">
 			<img src="{{ site.baseurl }}/images/user1.jpg" height="30" width="30">
 			<h3>Rossana added 10 Euros to the fund</h3>
 			<p class="date">5 minutes ago</p>
@@ -71,12 +71,14 @@ title: Dashboard
 			  </div>
 		</form>
 		<button class="btn btn-primary" type="button" id="addMoney"><span class="glyphicon glyphicon-plus"></span> Add money</button>
+		<button class="btn btn-primary" type="button" id="saveMoney">Save</button>
 	</div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
-$(".fund #addMoneyField").hide();
+$(".fund #addMoneyField, .fund #saveMoney").hide();
 $(".fund .btn").click(function() {
 	$("#addMoneyField").show();
+	$("#saveMoney").show();
 });
 </script>  
