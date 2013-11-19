@@ -36,24 +36,24 @@ title: Dashboard
 			<img src="{{ site.baseurl }}/images/user1.jpg" height="30" width="30">
 			<h3>Rossana created a new shopping list</h3>
 			<h4><a href="#" title="">Cleaning products</a></h4>
-			<p class="date">5 minutes ago</p>
+			<p class="date">8 hours ago</p>
 		</li>
 		<li class="newEvent user">
 			<img src="{{ site.baseurl }}/images/user2.jpg" height="30" width="30">
 			<h3>Gabriele created a new event</h3>
-			<h4><a href="/event.html" title="">Gabriele's Birthday</a></h4>
-			<p class="date">38 minutes ago</p>
+			<h4><a href="{{ site.baseurl }}/event.html" title="">Gabriele's Birthday</a></h4>
+			<p class="date">2 hours ago</p>
 		</li>
 		<li class="newComment user">
 			<img src="{{ site.baseurl }}/images/user3.jpg" height="30" width="30">
-			<h3>Esther commented in <a href="/event.html">Gabriele's Birthday!</a></h3>
+			<h3>Esther commented in <a href="{{ site.baseurl }}/event.html">Gabriele's Birthday!</a></h3>
 			<h4>"Who will buy the white wine?"</h4>
 			<p class="date">1 hour ago</p>
 		</li>
 		<li class="newEvent user">
 			<img src="{{ site.baseurl }}/images/user2.jpg" height="30" width="30">
 			<h3>Gabriele bought 3 things of the shopping list <a href="#">Toilet</a></h3>
-			<p class="date">3 hours ago</p>
+			<p class="date">37 minutes ago</p>
 		</li>
 		<li class="newEvent user">
 			<img src="{{ site.baseurl }}/images/user1.jpg" height="30" width="30">
@@ -65,21 +65,21 @@ title: Dashboard
 		<h2>Fund</h2>
 		<img src="{{ site.baseurl }}/images/fund.png" alt="fund" width="200">
 		<h3>34,25 Euros</h3>
-		<form id="addMoneyField" class="form-horizontal" role="form">
-			<div class="">
+		<div id="addMoneyField">
+			<form class="form-horizontal" role="form">
 			    <input type="text" class="form-control input" id="amount" placeholder=" 10 Euros">
-			  </div>
-		</form>
+				<button class="btn btn-primary" type="button" id="saveMoney">Save</button>
+			</form>
+		</div>
 		<button class="btn btn-primary" type="button" id="addMoney"><span class="glyphicon glyphicon-plus"></span> Add money</button>
-		<button class="btn btn-primary" type="button" id="saveMoney">Save</button>
+		
 	</div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
-$(".fund #addMoneyField, .fund #saveMoney").hide();
-$(".fund .btn").click(function() {
+$("#addMoneyField").hide();
+$("#addMoney").click(function() {
 	$("#addMoneyField").show();
-	$("#saveMoney").show();
-	$(".fund .btn").hide();
+	$("#addMoney").hide();
 });
 </script>  
